@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33c95deb-d4ab-45a3-a1e3-6338c40d9cbf">
+  <name>YPM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Yellow Package Manager</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9e0ad83a-2061-47c2-aa3d-7480aaf0e1db"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e6428be4-3f86-4e97-80e8-998e1f06b12c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="03ae8373-c28a-446a-9b88-97e9e7a7c06e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="75bdf291-5425-4f15-a352-1549ec03e303"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c62a728c-05e8-4129-97b9-2080ff244f0a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f1989bb-5509-4b32-8805-618f4f0e2c62"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d7ea9c21-199f-42cc-8f3d-091986243cdb"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>YPM_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Bayselonarrend</vendor>
+  <version>1.0.0</version>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="5ad1dde8-921a-4670-a791-a09af3e57023" extendedConfigurationObject="113c91b3-1172-4307-95f2-06fc2d757c53">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.YPM_ПакетныйМенеджер</subsystems>
+  <roles>Role.YPM_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.YPM_Инструменты</commonModules>
+  <dataProcessors>DataProcessor.YPM_МенеджерПакетов</dataProcessors>
+  <informationRegisters>InformationRegister.YPM_ИндексПакетов</informationRegisters>
+</mdclass:Configuration>

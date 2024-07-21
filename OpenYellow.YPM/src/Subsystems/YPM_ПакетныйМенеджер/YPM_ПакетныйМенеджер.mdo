@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd47d386-ec78-443d-ba1b-dc8ea5aff1ef">
+  <name>YPM_ПакетныйМенеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер пакетов YPM</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:Subsystem>

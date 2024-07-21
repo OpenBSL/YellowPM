@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8795ef86-b8af-46cc-bd3b-0db9626eff02">
+  <producedTypes>
+    <objectType typeId="3e28a41d-b8e5-4dc6-a552-3d72381e926a" valueTypeId="34b76ba6-bbda-4b57-8f51-f7d286c148bd"/>
+    <managerType typeId="accd6ced-08ea-4493-8b45-36799bb028c7" valueTypeId="b3d5710b-0e4e-40f1-bf89-15ea92c7b496"/>
+  </producedTypes>
+  <name>YPM_МенеджерПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер пакетов YPM</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.YPM_МенеджерПакетов.Form.Форма</defaultForm>
+  <attributes uuid="6e89359d-6e25-44f1-a1e4-95b2a988f151">
+    <name>ЛогОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лог обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b8f8abd1-b93e-4184-a628-bcbe17bd8301">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
