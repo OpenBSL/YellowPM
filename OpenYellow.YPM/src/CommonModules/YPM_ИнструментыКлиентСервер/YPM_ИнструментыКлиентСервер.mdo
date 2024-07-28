@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cad8a7e-0813-4941-8c86-0d68c68d26ff">
-  <name>YPM_Инструменты</name>
+  <name>YPM_ИнструментыКлиентСервер</name>
   <synonym>
     <key>ru</key>
     <value>Инструменты (YPM)</value>
@@ -8,4 +8,5 @@
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

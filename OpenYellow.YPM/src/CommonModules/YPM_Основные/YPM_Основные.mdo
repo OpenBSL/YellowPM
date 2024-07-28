@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef5e3e6e-e8d4-445f-bca8-354ae5b2ea2a">
+  <name>YPM_Основные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные методы (YPM)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

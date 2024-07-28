@@ -33,4 +33,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="2b38c988-1845-41e3-beb4-a09c884e69a8">
+    <name>ФормаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

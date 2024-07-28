@@ -20,20 +20,17 @@
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Bayselonarrend</vendor>
-  <version>1.0.0</version>
-  <compatibilityMode>8.3.23</compatibilityMode>
-  <languages uuid="5ad1dde8-921a-4670-a791-a09af3e57023" extendedConfigurationObject="113c91b3-1172-4307-95f2-06fc2d757c53">
+  <version>0.1.0</version>
+  <languages uuid="5ad1dde8-921a-4670-a791-a09af3e57023">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <languageCode>Checked</languageCode>
-    </extension>
-    <languageCode>ru</languageCode>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
   <subsystems>Subsystem.YPM_ПакетныйМенеджер</subsystems>
+  <commonPictures>CommonPicture.YPM_Лого</commonPictures>
   <roles>Role.YPM_ОсновнаяРоль</roles>
-  <commonModules>CommonModule.YPM_Инструменты</commonModules>
+  <commonModules>CommonModule.YPM_ИнструментыКлиентСервер</commonModules>
+  <commonModules>CommonModule.YPM_Основные</commonModules>
   <dataProcessors>DataProcessor.YPM_МенеджерПакетов</dataProcessors>
   <informationRegisters>InformationRegister.YPM_ИндексПакетов</informationRegisters>
 </mdclass:Configuration>
