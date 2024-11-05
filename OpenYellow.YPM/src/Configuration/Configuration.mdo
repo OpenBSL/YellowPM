@@ -21,6 +21,7 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>Bayselonarrend</vendor>
   <version>0.1.0</version>
+  <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="5ad1dde8-921a-4670-a791-a09af3e57023">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -28,9 +29,10 @@
   </languages>
   <subsystems>Subsystem.YPM_ПакетныйМенеджер</subsystems>
   <commonPictures>CommonPicture.YPM_Лого</commonPictures>
-  <roles>Role.YPM_ОсновнаяРоль</roles>
+  <roles>Role.YPM_ОбщиеПрава</roles>
   <commonModules>CommonModule.YPM_ИнструментыКлиентСервер</commonModules>
   <commonModules>CommonModule.YPM_Основные</commonModules>
   <dataProcessors>DataProcessor.YPM_МенеджерПакетов</dataProcessors>
   <informationRegisters>InformationRegister.YPM_ИндексПакетов</informationRegisters>
+  <informationRegisters>InformationRegister.YPM_УстановленныеРешения</informationRegisters>
 </mdclass:Configuration>

@@ -330,6 +330,135 @@
               <showTitle>true</showTitle>
             </extInfo>
           </items>
+          <items xsi:type="form:FormGroup">
+            <name>СписокПакетовГруппаВерсии</name>
+            <id>217</id>
+            <items xsi:type="form:FormField">
+              <name>СписокПакетовТекущаяВерсия</name>
+              <id>207</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СписокПакетов.ТекущаяВерсия</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СписокПакетовТекущаяВерсияРасширеннаяПодсказка</name>
+                <id>209</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СписокПакетовТекущаяВерсияКонтекстноеМеню</name>
+                <id>208</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>LabelField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:LabelFieldExtInfo">
+                <width>5</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СписокПакетовПоследняяВерсия</name>
+              <id>219</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СписокПакетов.ПоследняяВерсия</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СписокПакетовПоследняяВерсияРасширеннаяПодсказка</name>
+                <id>221</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СписокПакетовПоследняяВерсияКонтекстноеМеню</name>
+                <id>220</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>LabelField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:LabelFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key></key>
+              <value>Список пакетов группа версии</value>
+            </title>
+            <toolTip>
+              <key></key>
+              <value>Список пакетов группа версии</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>СписокПакетовГруппаВерсииРасширеннаяПодсказка</name>
+              <id>218</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>ColumnGroup</type>
+            <extInfo xsi:type="form:ColumnGroupExtInfo">
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
           <items xsi:type="form:FormField">
             <name>СписокПакетовОписание</name>
             <id>26</id>
@@ -1035,6 +1164,50 @@
                 <segments>СписокФайлов</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <items xsi:type="form:FormField">
+                <name>СписокФайловУстановлен</name>
+                <id>210</id>
+                <visible>true</visible>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокФайлов.Установлен</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>СписокФайловУстановленРасширеннаяПодсказка</name>
+                  <id>212</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СписокФайловУстановленКонтекстноеМеню</name>
+                  <id>211</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>CheckBoxField</type>
+                <readOnly>true</readOnly>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              </items>
               <items xsi:type="form:FormGroup">
                 <name>СписокФайловГруппаОснова</name>
                 <id>110</id>
@@ -1448,6 +1621,10 @@
                 </userVisible>
                 <horizontalAlign>Left</horizontalAlign>
               </autoCommandBar>
+              <handlers>
+                <event>OnActivateRow</event>
+                <name>СписокФайловПриАктивизацииСтроки</name>
+              </handlers>
               <searchStringAddition>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1773,6 +1950,111 @@
                 <placementArea>UserCmds</placementArea>
                 <picture xsi:type="core:PictureRef">
                   <picture>StdPicture.Catalog</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>УстановитьРасширение</name>
+                <id>205</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>УстановитьРасширениеРасширеннаяПодсказка</name>
+                  <id>206</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.УстановитьРасширение</commandName>
+                <representation>PictureAndText</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <height>2</height>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.QueryWizardTempTableDescription</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>УдалитьРасширение</name>
+                <id>213</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>УдалитьРасширениеРасширеннаяПодсказка</name>
+                  <id>214</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.УдалитьРасширение</commandName>
+                <representation>PictureAndText</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <height>2</height>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.QueryWizardCreateTempTableDropQuery</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ОтметитьРасширениеКакУстановленное</name>
+                <id>215</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ОтметитьРасширениеКакУстановленноеРасширеннаяПодсказка</name>
+                  <id>216</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.ОтметитьРасширениеКакУстановленное</commandName>
+                <representation>PictureAndText</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <height>2</height>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.QueryWizardTempTablesGroup</picture>
                 </picture>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
@@ -2612,10 +2894,45 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокПакетов.UUID</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокПакетов.ИндексКартинки</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
+	YPM_ИндексПакетов.Репозиторий КАК Репозиторий,
+	МАКСИМУМ(YPM_ИндексПакетов.Дата) КАК Дата,
+	YPM_ИндексПакетов.Автор КАК Автор
+ПОМЕСТИТЬ ДатыПоследнихВерсий
+ИЗ
+	РегистрСведений.YPM_ИндексПакетов КАК YPM_ИндексПакетов
+
+СГРУППИРОВАТЬ ПО
+	YPM_ИндексПакетов.Репозиторий,
+	YPM_ИндексПакетов.Автор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МАКСИМУМ(YPM_ИндексПакетов.Версия) КАК Версия,
+	ДатыПоследнихВерсий.Автор КАК Автор,
+	ДатыПоследнихВерсий.Репозиторий КАК Репозиторий
+ПОМЕСТИТЬ ПоследниеВерсии
+ИЗ
+	ДатыПоследнихВерсий КАК ДатыПоследнихВерсий
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.YPM_ИндексПакетов КАК YPM_ИндексПакетов
+		ПО ДатыПоследнихВерсий.Репозиторий = YPM_ИндексПакетов.Репозиторий
+			И ДатыПоследнихВерсий.Автор = YPM_ИндексПакетов.Автор
+			И ДатыПоследнихВерсий.Дата = YPM_ИндексПакетов.Дата
+
+СГРУППИРОВАТЬ ПО
+	ДатыПоследнихВерсий.Автор,
+	ДатыПоследнихВерсий.Репозиторий
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
 	РегистрСведенийYPM_ИндексПакетов.Репозиторий КАК Репозиторий,
 	РегистрСведенийYPM_ИндексПакетов.Автор КАК Автор,
 	РегистрСведенийYPM_ИндексПакетов.Описание КАК Описание,
@@ -2625,11 +2942,21 @@
 	РегистрСведенийYPM_ИндексПакетов.Звезд КАК Звезд,
 	РегистрСведенийYPM_ИндексПакетов.Автор + &quot;/&quot; + РегистрСведенийYPM_ИндексПакетов.Репозиторий КАК ПолноеНаименование,
 	СУММА(РегистрСведенийYPM_ИндексПакетов.Скачиваний) КАК Скачиваний,
-	0 КАК ИндексКартинки
+	0 КАК ИндексКартинки,
+	ЕСТЬNULL(YPM_УстановленныеРешения.Версия, &quot;&quot;) КАК ТекущаяВерсия,
+	ЕСТЬNULL(YPM_УстановленныеРешения.UUID, &quot;&quot;) КАК UUID,
+	ПоследниеВерсии.Версия КАК ПоследняяВерсия
 ИЗ
 	РегистрСведений.YPM_ИндексПакетов КАК РегистрСведенийYPM_ИндексПакетов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.YPM_УстановленныеРешения КАК YPM_УстановленныеРешения
+		ПО РегистрСведенийYPM_ИндексПакетов.Репозиторий = YPM_УстановленныеРешения.Репозиторий
+			И РегистрСведенийYPM_ИндексПакетов.Автор = YPM_УстановленныеРешения.Автор
+		ЛЕВОЕ СОЕДИНЕНИЕ ПоследниеВерсии КАК ПоследниеВерсии
+		ПО РегистрСведенийYPM_ИндексПакетов.Репозиторий = ПоследниеВерсии.Репозиторий
+			И РегистрСведенийYPM_ИндексПакетов.Автор = ПоследниеВерсии.Автор
 ГДЕ
 	РегистрСведенийYPM_ИндексПакетов.Тип = &amp;ОтборПоТипу
+
 СГРУППИРОВАТЬ ПО
 	РегистрСведенийYPM_ИндексПакетов.Репозиторий,
 	РегистрСведенийYPM_ИндексПакетов.Автор,
@@ -2638,7 +2965,10 @@
 	РегистрСведенийYPM_ИндексПакетов.СтраницаРепозитория,
 	РегистрСведенийYPM_ИндексПакетов.Лицензия,
 	РегистрСведенийYPM_ИндексПакетов.Звезд,
-	РегистрСведенийYPM_ИндексПакетов.Автор + &quot;/&quot; + РегистрСведенийYPM_ИндексПакетов.Репозиторий</queryText>
+	РегистрСведенийYPM_ИндексПакетов.Автор + &quot;/&quot; + РегистрСведенийYPM_ИндексПакетов.Репозиторий,
+	ЕСТЬNULL(YPM_УстановленныеРешения.Версия, &quot;&quot;),
+	ЕСТЬNULL(YPM_УстановленныеРешения.UUID, &quot;&quot;),
+	ПоследниеВерсии.Версия</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
@@ -2673,9 +3003,17 @@
 	YPM_ИндексПакетов.Скачиваний КАК Скачиваний,
 	YPM_ИндексПакетов.Размер / 1000000 КАК Размер,
 	YPM_ИндексПакетов.Тип КАК Тип,
-	YPM_ИндексПакетов.АдресФайла КАК АдресФайла
+	YPM_ИндексПакетов.АдресФайла КАК АдресФайла,
+	ЕСТЬNULL(YPM_УстановленныеРешения.UUID, &quot;&quot;) КАК UUID,
+	ЕСТЬNULL(YPM_УстановленныеРешения.UUID, &quot;&quot;) &lt;> &quot;&quot; КАК Установлен,
+	YPM_ИндексПакетов.Дата КАК Дата
 ИЗ
 	РегистрСведений.YPM_ИндексПакетов КАК YPM_ИндексПакетов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.YPM_УстановленныеРешения КАК YPM_УстановленныеРешения
+		ПО YPM_ИндексПакетов.Репозиторий = YPM_УстановленныеРешения.Репозиторий
+			И YPM_ИндексПакетов.Файл = YPM_УстановленныеРешения.Файл
+			И YPM_ИндексПакетов.Версия = YPM_УстановленныеРешения.Версия
+			И YPM_ИндексПакетов.Автор = YPM_УстановленныеРешения.Автор
 ГДЕ
 	YPM_ИндексПакетов.Репозиторий = &amp;Репозиторий
 	И YPM_ИндексПакетов.Автор = &amp;Автор
@@ -2960,6 +3298,69 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОткрытьФайлНебезопасно</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановитьРасширение</name>
+    <title>
+      <key></key>
+      <value>Установить расширение</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key></key>
+      <value>Установить расширение</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьРасширение</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалитьРасширение</name>
+    <title>
+      <key></key>
+      <value>Удалить расширение</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key></key>
+      <value>Удалить расширение</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьРасширение</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтметитьРасширениеКакУстановленное</name>
+    <title>
+      <key></key>
+      <value>Отметить расширение как установленное</value>
+    </title>
+    <id>10</id>
+    <toolTip>
+      <key></key>
+      <value>Отметить расширение как установленное</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтметитьРасширениеКакУстановленное</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

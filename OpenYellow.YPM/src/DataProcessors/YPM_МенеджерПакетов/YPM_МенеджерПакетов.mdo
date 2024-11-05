@@ -42,4 +42,14 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="0f3396b6-9081-43e2-8327-9913113ec150">
+    <name>Пакеты</name>
+    <synonym>
+      <key></key>
+      <value>Пакеты</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>

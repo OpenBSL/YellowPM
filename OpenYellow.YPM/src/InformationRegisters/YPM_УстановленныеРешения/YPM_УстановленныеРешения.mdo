@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e93d1a44-cd5d-4470-9573-82d71d9c16c5">
+  <producedTypes>
+    <selectionType typeId="ade35724-7d26-4f05-94de-93e045ea06d4" valueTypeId="562d2bcc-edcf-4aa5-9336-5d5375106dbd"/>
+    <listType typeId="2963e938-ce48-4915-816a-09d133c007b4" valueTypeId="1bc1f284-56d8-4936-9126-e4dc357158f9"/>
+    <managerType typeId="84a7d192-c9fc-4506-958e-edd1daae1f18" valueTypeId="5ec4a2fd-b1b2-4181-b563-544272da476d"/>
+    <recordSetType typeId="4331a593-f362-408f-b8ef-8a98370b9f35" valueTypeId="aba3f59d-e416-4eda-9f41-5dd5e3ad19b7"/>
+    <recordKeyType typeId="1ac18fda-3540-40ff-9994-7103d16d33c2" valueTypeId="1418b46b-9d14-48e5-a3bf-38f678f5917e"/>
+    <recordType typeId="ae2c8b1a-4dec-4cfb-aefa-b048e6e9b26c" valueTypeId="d705d02a-e341-4959-af27-914ae49b080a"/>
+    <recordManagerType typeId="6573d17b-ffd3-4633-88fe-196b68fc810e" valueTypeId="adb9161a-88d8-42ba-a115-15478ecef1dd"/>
+  </producedTypes>
+  <name>YPM_УстановленныеРешения</name>
+  <synonym>
+    <key></key>
+    <value>YPM установленные решения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="3cbd7211-b01c-4601-aa3c-5fce44960089">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="e2d4f4ca-5500-4404-971d-4dcc65c1d5ae">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="e80d29d3-d052-4cdc-b301-dc14c91277e1">
+    <name>UUID</name>
+    <synonym>
+      <key></key>
+      <value>UUID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="436a9d1c-16ef-4b2a-8607-f4ad09f085c6">
+    <name>Репозиторий</name>
+    <synonym>
+      <key></key>
+      <value>Репозиторий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b153864e-c417-45c8-ba4c-6b7e572488ac">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

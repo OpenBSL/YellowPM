@@ -180,6 +180,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="ada45e32-3f19-48bb-81e8-d820f7a348d2">
+    <name>Дата</name>
+    <synonym>
+      <key></key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="4f728758-1d52-4a2a-aa45-00cd1fa31e13">
     <name>Репозиторий</name>
     <synonym>
@@ -250,6 +265,26 @@
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19beec7f-268d-40ec-90d6-e8ec43e2dc24">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
