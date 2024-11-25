@@ -3017,6 +3017,9 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокФайлов.Тип</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокФайлов.UUID</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	YPM_ИндексПакетов.Версия КАК Версия,
