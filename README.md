@@ -3,7 +3,7 @@
 
 # Желтый пакетный менеджер
 
-![Версия](https://img.shields.io/badge/Версия_1С-8.3.11-yellow)
+![Версия](https://img.shields.io/badge/Версия_1С-8.3.13-yellow)
 [![Канал](https://img.shields.io/badge/Telegram-@OpenYellowProject-blue)](https://t.me/openyellowproject)
 
 **YPM** (Yellow Package Manager) - пакетный менеджер для быстрого получения обработок, отчетов и расширений из Github прямо внутри 1С. Он представляет из себя расширение с обработкой, внутри которой можно просматривать каталог файлов релизов различных 1С-репозиториев, собранных на основе индексов проекта [OpenYellow](https://github.com/OpenBSL/OpenYellow)
