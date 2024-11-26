@@ -3571,6 +3571,24 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>НачалоОбновления</name>
+    <title>
+      <key>ru</key>
+      <value>Начало обновления</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СохранитьАдресИндекса</name>
     <title>
