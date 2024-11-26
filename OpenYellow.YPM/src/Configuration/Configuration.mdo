@@ -14,9 +14,8 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c62a728c-05e8-4129-97b9-2080ff244f0a"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f1989bb-5509-4b32-8805-618f4f0e2c62"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d7ea9c21-199f-42cc-8f3d-091986243cdb"/>
-  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>YPM_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Bayselonarrend</vendor>
@@ -28,7 +27,10 @@
   </languages>
   <subsystems>Subsystem.YPM_ПакетныйМенеджер</subsystems>
   <commonPictures>CommonPicture.YPM_Лого</commonPictures>
+  <commonPictures>CommonPicture.YPM_ЛогоПроекта</commonPictures>
+  <commonPictures>CommonPicture.YPM_ЛогоOpenYellow</commonPictures>
   <roles>Role.YPM_ОбщиеПрава</roles>
+  <commonTemplates>CommonTemplate.YPM_РасширениеЗаглушка</commonTemplates>
   <commonModules>CommonModule.YPM_ИнструментыКлиентСервер</commonModules>
   <commonModules>CommonModule.YPM_Основные</commonModules>
   <dataProcessors>DataProcessor.YPM_МенеджерПакетов</dataProcessors>

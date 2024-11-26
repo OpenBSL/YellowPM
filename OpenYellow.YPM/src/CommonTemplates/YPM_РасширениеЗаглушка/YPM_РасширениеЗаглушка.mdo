@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b855df31-1954-4864-9508-eb80fb08bf55">
+  <name>YPM_РасширениеЗаглушка</name>
+  <synonym>
+    <key></key>
+    <value>YPM расширение заглушка</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>
