@@ -1,0 +1,8 @@
+:root {
+    --vp-c-green-1: #FFA526;
+    --vp-c-green-2: #FFA526;
+    --vp-c-green-3: #FFA526;
+    --vp-button-brand-hover-bg: #45A6CA;
+    --vp-button-brand-active-bg: #3AA3CD;
+    --vp-c-brand-1:var(--vp-button-brand-hover-bg);
+  }
